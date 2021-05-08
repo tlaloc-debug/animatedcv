@@ -1,0 +1,62 @@
+.armmiddle {
+    position: absolute;
+    left: 0px;
+}
+
+.armmiddlean {
+    position: absolute;
+    left: 0px;
+    transform-origin: 108px 73px;   
+    animation-name: mecharm;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes mecharm {
+    50% {transform: rotate(80deg);}
+  }
+
+.armend {
+    position: absolute;
+    top: 15px;
+    left: 140px;
+    width: 150px;
+    z-index: -1;
+}
+
+.armendan {
+    position: absolute;
+    top: 15px;
+    left: 140px;
+    width: 150px;
+    z-index: -1;
+    transform-origin: 0px 25px;
+    animation-name: armfinal;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes armfinal {
+    50% {transform: rotate(-80deg);}
+  }
+
+.teach {
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    width: 150px;
+    height: 250px;
+    background-image: url("./teach.png");
+    background-repeat: no-repeat;
+    background-size: 150px auto;
+}
+
+.codekarel {
+    margin-top: 80px;
+    width: 300px;
+    height: 185px;
+    background-image: url("./codekarel.png");
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    border-radius: 30px;
+}

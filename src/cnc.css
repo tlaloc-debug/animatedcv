@@ -1,0 +1,102 @@
+.mycube {
+    position: absolute;
+    right: 71px;
+    width: 194px;
+    height: 120px;
+    background-image: url("./piece1.png");
+    background-size: 194px auto;
+    background-position-x: 0px;
+    background-repeat: no-repeat;
+}
+
+.mycubean{
+    position: absolute;
+    right: 71px;
+    width: 0px;
+    height: 120px;
+    transition: width 1s, background-position-x 1s;
+    transition-timing-function: linear;
+    background-image: url("./piece1.png");
+    background-size: 194px auto;
+    background-position-x: -194px;
+    background-repeat: no-repeat;
+}
+
+.mycube2 {
+    position: absolute;
+    left: 69px;
+    top: 60px;
+    width: 194px;
+    height: 130px;
+    background-image: url("./piece2.png");
+    background-size: 194px auto;
+    background-repeat: no-repeat;
+}
+
+.mycube2an {
+    position: absolute;
+    left: 69px;
+    top: 60px;
+    width: 0px;
+    height: 130px;
+    transition: width 1s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+    background-image: url("./piece2.png");
+    background-size: 194px auto;
+    background-repeat: no-repeat;
+}
+
+.tool {
+    position: absolute;
+    left: 35px;
+    top: -20px;
+    width: 70px;
+    height: 191px;
+    background-image: url("./tool.png");
+    background-size: 70px auto;
+    background-repeat: no-repeat;
+}
+
+.toolan {
+    position: absolute;
+    left: 35px;
+    top: -20px;
+    width: 70px;
+    height: 191px;
+    background-image: url("./tool.png");
+    background-repeat: no-repeat;
+    background-size: 70px auto;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes example {
+    25% {top: -60px; left: 125px; }
+    50% {top: -20px; left: 230px;}
+    75% {top: 60px; left: 125px;}
+    100% {top: -20px; left: 35px;}    
+  }
+
+
+.gcodeimage {
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    height: 600px;
+    background-image: url("./gcode.png");
+    background-size: 300px auto;
+    background-repeat: no-repeat;
+}
+
+.cncdrawing {
+    position: absolute;
+    right: 10px;
+    bottom: 50px;
+    width: 250px;
+    height: 100px;
+    background-image: url("./drawing.png");
+    background-repeat: no-repeat;
+    background-size: auto 100px;
+}

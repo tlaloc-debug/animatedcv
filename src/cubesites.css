@@ -1,0 +1,65 @@
+* { box-sizing: border-box; }
+
+.scenesites {
+  width: 300px;
+  height: 300px;
+  perspective: 400px;
+}
+
+.worksites {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: translateZ(-150px);
+  transition: transform 1s;
+}
+
+.worksites.show-front  { transform: translateZ(-150px) rotateX(   0deg); }
+.worksites.show-back   { transform: translateZ(-150px) rotateX(180deg); }
+.worksites.show-top    { transform: translateZ(-150px) rotateX( 270deg); }
+.worksites.show-bottom { transform: translateZ(-150px) rotateX(  90deg); }
+
+.worksites__face {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+
+.worksites__face--front  { 
+  background: white;
+  background-image: url("./site1.png");
+  background-size: 300px auto;
+  background-repeat: no-repeat;
+  background-position: 0px 30px;
+ }
+.worksites__face--right  { background: hsla(120, 100%, 50%, 0.7); }
+.worksites__face--back   { 
+  background: white;
+  background-image: url("./site3.png");
+  background-size: 300px auto;
+  background-repeat: no-repeat;
+  background-position: 0px 30px;
+}
+.worksites__face--left   { background: hsla(180, 100%, 50%, 0.7); }
+.worksites__face--top    { 
+  background: white;
+  background-image: url("./portfolioleft.png");
+  background-size: 300px auto;
+  background-repeat: no-repeat;
+  background-position: 0px 30px;
+}
+.worksites__face--bottom { 
+  background: white;
+  background-image: url("./site2.png");
+  background-size: 300px auto;
+  background-repeat: no-repeat;
+  background-position: 0px 30px;
+}
+
+.worksites__face--front  { transform: rotateY(  0deg) translateZ(150px); }
+.worksites__face--right  { transform: rotateY( 90deg) translateZ(150px); }
+.worksites__face--back   { transform: rotateY(180deg) rotate(180deg) translateZ(150px); }
+.worksites__face--left   { transform: rotateY(-90deg) translateZ(150px); }
+.worksites__face--top    { transform: rotateX( 90deg) translateZ(150px); }
+.worksites__face--bottom { transform: rotateX(-90deg) translateZ(150px); }

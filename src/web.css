@@ -1,0 +1,171 @@
+.boxweb {
+    position: relative;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+.reactlogo {
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    width: 420px;
+    height: 100px;
+}
+
+.reactlogoan {
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    width: 420px;
+    height: 100px;
+    transition: transform 0.5s;
+    transition-timing-function: linear;
+    transform-origin: 0px 50px;
+    transform: rotate(-90deg);
+}
+
+.reactrotate {
+    position: absolute;
+    width: 50px;
+    top: -10px;
+    right: 0px;
+}
+
+.reactrotatean {
+    position: absolute;
+    width: 100px;
+    top: -10px;
+    right: 0px;
+    transition: transform 0.5s, width 0.5s;
+    transition-timing-function: linear;
+    transform: rotate(90deg);
+}
+
+.htmlrotate {
+    position: absolute;
+    width: 50px;
+    top: -10px;
+    right: 0px;
+}
+
+.htmlrotatean {
+    position: absolute;
+    width: 100px;
+    top: -120px;
+    right: 100px;
+    transition: transform 0.5s, right 0.5s, top 0.5s, width 0.5s;
+    transition-timing-function: linear;
+    transform: rotate(90deg);
+}
+
+.cssrotate {
+    position: absolute;
+    width: 50px;
+    top: -10px;
+    right: 0px;
+}
+
+.cssrotatean {
+    position: absolute;
+    width: 100px;
+    top: -10px;
+    right: 100px;
+    transition: transform 0.5s, right 0.5s, width 0.5s;
+    transition-timing-function: linear;
+    transform: rotate(90deg);
+}
+
+.jsrotate {
+    position: absolute;
+    width: 50px;
+    top: -10px;
+    right: 0px;
+}
+
+.jsrotatean {
+    position: absolute;
+    width: 100px;
+    top: 100px;
+    right: 100px;
+    transition: transform 0.5s, right 0.5s, top 0.5s, width 0.5s;
+    transition-timing-function: linear;
+    transform: rotate(90deg);
+}
+
+.mysqllogo {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    width: 480px;
+    height: 100px;
+}
+
+.mysqllogoan {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    width: 480px;
+    height: 100px;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+    transition-timing-function: linear;
+    transform-origin: 480px 50px;
+    transform: rotate(90deg);
+}
+
+.noderotate {
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: 0px;
+}
+
+.noderotatean {
+    position: absolute;
+    width: 100px;
+    top: 0px;
+    left: 100px;
+    transition: transform 0.5s, left 0.5s, top 0.5s, width 0.5s;
+    transition-delay: 0.5s;
+    transition-timing-function: linear;
+    transform: rotate(-90deg);
+}
+
+.phprotate {
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: 0px;
+}
+
+.phprotatean {
+    position: absolute;
+    width: 100px;
+    top: 100px;
+    left: 100px;
+    transition: transform 0.5s, left 0.5s, top 0.5s, width 0.5s;
+    transition-delay: 0.5s;
+    transition-timing-function: linear;
+    transform: rotate(-90deg);
+}
+
+.sqlrotate {
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: 0px;
+}
+
+.sqlrotatean {
+    position: absolute;
+    width: 150px;
+    top: 50px;
+    left: 200px;
+    transition: transform 0.5s, left 0.5s, top 0.5s, width 0.5s;
+    transition-delay: 0.5s;
+    transition-timing-function: linear;
+    transform: rotate(-90deg);  
+}

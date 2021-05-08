@@ -1,0 +1,176 @@
+.classnameone div {
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 0px 30px;  
+    text-align: center;
+}
+
+.classnameone .homeicon {
+    color: #5C2CB4;
+    font-weight: 400;
+}
+
+.classnameone .educationicon:hover {
+    color: white;
+    width: 185px;
+    height: 70px;
+    background-color: #5C2CB4;
+    background-image: url("./meicon.png");
+    background-position: 150px 30px; 
+    background-size: 30px 30px;
+    transition: background-position 0.5s; 
+    opacity: 0.9; 
+    border-radius: 10px;   
+    text-align: left;
+    padding-left: 15px;
+}
+
+.classnameone .codeicon:hover {
+    color: white;
+    width: 185px;
+    height: 70px;
+    background-color: #5C2CB4;
+    background-image: url("./codingicon.png");
+    background-position: 150px 35px; 
+    background-size: 30px auto;
+    transition: background-position 0.5s; 
+    opacity: 0.9; 
+    border-radius: 10px;   
+    text-align: left;
+    padding-left: 15px;
+}
+
+.classnameone .workicon:hover {
+    color: white;
+    width: 185px;
+    height: 70px;
+    background-color: #5C2CB4;
+    background-image: url("./workicon.png");
+    background-position: 140px 30px; 
+    background-size: 50px auto;
+    transition: background-position 0.5s; 
+    opacity: 0.9; 
+    border-radius: 10px;   
+    text-align: left;
+    padding-left: 15px;
+}
+
+.classnameone .moreicon:hover {
+    color: white;
+    width: 185px;
+    height: 70px;
+    background-color: #5C2CB4;
+    background-image: url("./bulbicon.png");
+    background-position: 160px 30px; 
+    background-size: 20px auto;
+    transition: background-position 0.5s; 
+    opacity: 0.9; 
+    border-radius: 10px;   
+    text-align: left;
+    padding-left: 15px;
+}
+
+.classnametwo div {
+    margin-top: 80px;
+    margin-left: 95%;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #5C2CB4;
+    opacity: 0.9;
+}
+
+.classnametwo .homeicon:hover {
+    margin-left: 93%;
+    transform: scale(4);
+    transition: transform 0.3s, margin-left 0.3s;
+    background-image: url("./homeicon.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+}
+
+.classnametwo .educationicon:hover {
+    margin-left: 93%;
+    transform: scale(4);
+    transition: transform 0.3s, margin-left 0.3s;
+    background-image: url("./meicon.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+}
+
+.classnametwo .codeicon:hover {
+    margin-left: 93%;
+    transform: scale(4);
+    transition: transform 0.3s, margin-left 0.3s;
+    background-image: url("./codingicon.png");
+    background-size: 15px auto;
+    background-repeat: no-repeat;
+    background-position: 2px 5px;
+}
+
+.classnametwo .workicon:hover {
+    margin-left: 93%;
+    transform: scale(4);
+    transition: transform 0.3s, margin-left 0.3s;
+    background-image: url("./workicon.png");
+    background-size: 15px auto;
+    background-repeat: no-repeat;
+    background-position: 2px 5px;
+}
+
+.classnametwo .moreicon:hover {
+    margin-left: 93%;
+    transform: scale(4);
+    transition: transform 0.3s, margin-left 0.3s;
+    background-image: url("./bulbicon.png");
+    background-size: 10px auto;
+    background-repeat: no-repeat;
+    background-position: 5px 2px;
+}
+
+.classnametwo .educationiconan {
+    margin-left: 93%;
+    transform: scale(4);
+    transition: transform 0.3s, margin-left 0.3s;
+    background-image: url("./meicon.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+}
+
+.classnametwo .codeiconan {
+    margin-left: 93%;
+    transform: scale(4);
+    transition: transform 0.3s, margin-left 0.3s;
+    background-image: url("./codingicon.png");
+    background-size: 15px auto;
+    background-repeat: no-repeat;
+    background-position: 2px 5px;
+}
+
+.classnametwo .workiconan {
+    margin-left: 93%;
+    transform: scale(4);
+    transition: transform 0.3s, margin-left 0.3s;
+    background-image: url("./workicon.png");
+    background-size: 15px auto;
+    background-repeat: no-repeat;
+    background-position: 2px 5px;
+}
+
+.classnametwo .moreiconan {
+    margin-left: 93%;
+    transform: scale(4);
+    transition: transform 0.3s, margin-left 0.3s;
+    background-image: url("./bulbicon.png");
+    background-size: 10px auto;
+    background-repeat: no-repeat;
+    background-position: 5px 2px;
+}

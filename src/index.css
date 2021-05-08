@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.big {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 3em;
+    opacity: 0.8;
+}
+
+.small {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+.paragraph {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.paragraphsmall {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.horizontalcenter {
+    display: flex;
+    justify-content: center;
+}
+
+.space {
+    display: flex;
+    justify-content: space-around;
+}
+
+.verticalcenter {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
