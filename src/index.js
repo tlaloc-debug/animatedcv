@@ -155,7 +155,7 @@ function FullPageExample () {
         slidesNumbers.push(<div className={education ? "educationiconan" : "educationicon"} onClick={() => scrollToSlide(1)}>{controls ? "education" : ""}</div>)
         slidesNumbers.push(<div className={web ? "codeiconan" : "codeicon"} onClick={() => scrollToSlide(2)}>{controls ? "programming" : ""}</div>)
         slidesNumbers.push(<div className={work ? "workiconan" : "workicon"} onClick={() => scrollToSlide(3)}>{controls ? "projects" : ""}</div>)
-        slidesNumbers.push(<div className={plc ? "moreiconan" : "moreicon"} onClick={() => scrollToSlide(4)}>{controls ? "+ programacion" : ""}</div>)
+        slidesNumbers.push(<div className={plc ? "moreiconan" : "moreicon"} onClick={() => scrollToSlide(4)}>{controls ? "+ programming" : ""}</div>)
         return slidesNumbers;
       }
     
